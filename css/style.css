@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background: url(../img/station.jpg); */
+  /* background-size: auto; */
+  background: #34629e;
+  text-align: center;
+  margin-top: 40px;
+}
+#count-el {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #cceb4d;
+  text-shadow: 2px 2px 20px black;
+}
+
+#main-header {
+  color: white;
+  text-shadow: 2px 2px 20px black;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 250px;
+}
+
+button {
+  padding: 20px;
+  margin: 0 0 10px;
+  color: white;
+  text-shadow: 2px 2px 20px black;
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(0.95);
+}
+
+#increment-btn {
+  background: #659feb;
+}
+
+#save-btn {
+  background: #8b9e3c;
+}
+
+#reset-btn {
+  background: #eb877c;
+  margin-bottom: 20px;
+}
+
+#saved-number {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
